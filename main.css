@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+}
+
+.img {
+  width: 500px;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  color: blue;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Fredoka", sans-serif;
+}
+
+p {
+  letter-spacing: -0.5px;
+}
+
+.container {
+  max-width: 960px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.details {
+  display: flex;
+  margin: 100px auto;
+}
+
+.details__text {
+  padding: 0 20px;
+  margin: auto 0;
+}
+
+.primary__button {
+  background-color: blue;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  transition: ease-in-out all 0.2s;
+}
+
+.primary__button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.nav__logo {
+  width: 70px;
+  height: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  padding: 0 10px;
+}
+
+.navbar a {
+    color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner {
+  background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  padding: 200px 0;
+  position: relative;
+}
+
+.banner__overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.banner__content {
+  position: relative;
+  z-index: 5;
+}
+
+.banner p {
+  color: white;
+  max-width: 600px;
+}
+
+.portfolio h1 {
+  color: black;
+}
+
+.portfolio__grid {
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "img1 img2 img2"
+    "img3 img4 img5";
+}
+
+.portfolio__element img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+#img1 {
+    grid-column: 2 / 4;
+}
+
+.contact{
+    margin: 50px auto;
+}
+.contact__form {
+    height: auto;
+    padding: 20px 0;
+}
+
+#subject {
+    height: auto;
+}
+
+.form_name {
+    box-sizing: border-box;
+}
+
+#textarea {
+    width: 100%;
+}
+
+#button {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+
+.footer__content{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+}
+h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0 30px;
+}
+
+.form__input{
+    width: 100%;
+}
+
+.form__input input{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+}
+
+.form__name, .form__info{
+    display: flex;
+}

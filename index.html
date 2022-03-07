@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__content container">
+        <img
+          src="https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt=""
+          class="nav__logo"
+        />
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Banner -->
+    <div class="banner">
+      <div class="banner__overlay"></div>
+      <div class="container banner__content">
+        <h1>This is it</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quasi
+          sunt impedit, neque dolorum aliquid eius! Odio provident tenetur,
+          nihil est eius exercitationem nam voluptatum! Cupiditate sint natus at
+          ducimus.
+        </p>
+        <button class="primary__button">Find out more</button>
+      </div>
+    </div>
+    <div class="container details" id="about">
+      <img
+        src="https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+        alt=""
+        class="img"
+      />
+      <div class="details__text">
+        <h1>Test1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius a
+          ratione id veniam, aliquid consequuntur, necessitatibus voluptatibus
+          incidunt provident totam maiores ipsam pariatur suscipit nemo unde
+          asperiores voluptatem! Suscipit, neque.
+        </p>
+        <button class="primary__button">Submit</button>
+      </div>
+    </div>
+
+    <div class="container details">
+      <div class="details__text">
+        <h1>Test1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius a
+          ratione id veniam, aliquid consequuntur, necessitatibus voluptatibus
+          incidunt provident totam maiores ipsam pariatur suscipit nemo unde
+          asperiores voluptatem! Suscipit, neque.
+        </p>
+        <button class="primary__button">Submit</button>
+      </div>
+      <img
+        src="https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+        alt=""
+        class="img"
+      />
+    </div>
+    <div class="container portfolio">
+      <h1>Porfolio</h1>
+      <div class="portfolio__grid">
+        <div class="portfolio__element">
+          <img
+            src="https://images.pexels.com/photos/776636/pexels-photo-776636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </div>
+        <div class="portfolio__element" id="img1">
+          <img
+            src="https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </div>
+        <div class="portfolio__element">
+          <img
+            src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </div>
+        <div class="portfolio__element">
+          <img
+            src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </div>
+        <div class="portfolio__element">
+          <img
+            src="https://images.pexels.com/photos/268966/pexels-photo-268966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container contact">
+      <h1>Contact</h1>
+      <div class="contact__form">
+        <div class="form__name">
+          <div class="form__input">
+            <label for="fname">First Name</label>
+            <br />
+            <input type="text" id="fname" name="fname" />
+          </div>
+
+          <div class="form__input">
+            <label for="lname">Last Name</label>
+            <br />
+            <input type="text" id="lname" name="lname" />
+          </div>
+        </div>
+        <div class="form__info">
+          <div class="form__input">
+            <label for="email">Email</label>
+            <br />
+            <input type="text" id="email" name="email" />
+          </div>
+          <div class="form__input">
+            <label for="number">Phone number</label>
+            <br />
+            <input type="text" id="number" name="number" />
+          </div>
+        </div>
+      </div>
+      <textarea
+        name="text"
+        id="textarea"
+        cols="20"
+        rows="10"
+        placeholder="Text..."
+      ></textarea>
+      <input type="button" id="button" class="primary__button" value="Submit" />
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer__content">
+          <img
+            src="https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+            class="nav__logo"
+          />
+          <h4>Made by Axentioi Ovidiu</h4>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
